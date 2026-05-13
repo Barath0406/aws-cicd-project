@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudNova DevOps</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background: linear-gradient(to right, #141e30, #243b55);
+            color:white;
+        }
+
+        header{
+            text-align:center;
+            padding:40px;
+            background: rgba(0,0,0,0.3);
+        }
+
+        header h1{
+            font-size:50px;
+            margin-bottom:10px;
+        }
+
+        header p{
+            font-size:20px;
+            color:#d1d1d1;
+        }
+
+        .container{
+            width:90%;
+            margin:auto;
+            padding:40px 0;
+        }
+
+        .cards{
+            display:flex;
+            gap:20px;
+            flex-wrap:wrap;
+            justify-content:center;
+        }
+
+        .card{
+            background:white;
+            color:black;
+            width:300px;
+            padding:25px;
+            border-radius:12px;
+            transition:0.3s;
+            box-shadow:0px 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .card:hover{
+            transform:translateY(-10px);
+        }
+
+        .card h2{
+            margin-bottom:15px;
+            color:#243b55;
+        }
+
+        .status{
+            margin-top:40px;
+            text-align:center;
+            padding:25px;
+            background: rgba(255,255,255,0.1);
+            border-radius:10px;
+        }
+
+        .status h2{
+            margin-bottom:15px;
+            color:#00ffcc;
+        }
+
+        footer{
+            text-align:center;
+            padding:20px;
+            background:black;
+            margin-top:40px;
+        }
+
+        .btn{
+            display:inline-block;
+            margin-top:15px;
+            padding:10px 20px;
+            background:#00ffcc;
+            color:black;
+            text-decoration:none;
+            border-radius:5px;
+            font-weight:bold;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>CloudNova DevOps</h1>
+    <p>CI/CD Pipeline Deployment using Jenkins + GitHub + AWS EC2</p>
+</header>
+
+<div class="container">
+
+    <div class="cards">
+
+        <div class="card">
+            <h2>🚀 Continuous Integration</h2>
+            <p>
+                Automatically integrates latest code changes from GitHub repository.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>⚙️ Continuous Deployment</h2>
+            <p>
+                Jenkins deploys application instantly to Apache web server.
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>☁️ AWS Cloud Hosting</h2>
+            <p>
+                Application hosted securely on Amazon EC2 instance.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="status">
+        <h2>Deployment Status: SUCCESS ✅</h2>
+
+        <p>
+            This application was deployed automatically using Jenkins Pipeline.
+        </p>
+
+        <a href="#" class="btn">View Pipeline</a>
+    </div>
+
+</div>
+
+<footer>
+    <p>DevOps Fresher Project | Jenkins CI/CD Automation</p>
+</footer>
+
+</body>
+</html>
